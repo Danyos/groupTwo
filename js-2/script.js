@@ -21,7 +21,7 @@
 
 
 
-let str="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque aut deleniti dolores eum in necessitatibus nesciunt odio, praesentium reiciendis reprehenderit! Adipisci explicabo harum mollitia necessitatibus officia possimus praesentium quae repudiandae.\n" 
+let str="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque aut deleniti dolores eum in necessitatibus nesciunt odio, praesentium reiciendis reprehenderit! Adipisci explicabo harum mollitia necessitatibus officia possimus praesentium quae repudiandae.\n"
   let mytextDebug=true
 function mypageshow(){
     let textTag=document.querySelector('.text')
