@@ -1,11 +1,10 @@
-let words = ['google', 'javascript', 'react', 'microsoft'
-];
+let words = ['google', 'javascript', 'react', 'microsoft'];
 let qIndex = 0;
 let text_box = document.querySelector('.text_box');
 let check = document.querySelector('.check');
 let currentAnswer
 let random
-const second=5
+const second=15
 let seconds = second;
 
 let timerStart;
@@ -15,7 +14,7 @@ let result = {
 }
 
 function question() {
-    console.log(words)
+
     if (!words.length) {
         clearInterval(timerStart)
         gameOver()

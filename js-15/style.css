@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    font-family: Bitter, serif;
+
+}
+.container {
+    width: 60%;
+   margin: auto;
+}
+.myquestion{
+    width: 100%;
+
+    border: 1px solid black;
+    border-radius: 55px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.anser{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px 0;
+}
+.myanser{
+    width: 150px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 55px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.setActive{
+    background: green;
+    color: wheat;
+}
+.setActive2{
+    background: red;
+    color: wheat;
+}
+.container .front-card {
+
+    padding: 0.1em 1em;
+    color: white;
+
+    border-radius: 11px;
+    background: linear-gradient(135deg, #45484d 0%, #000000 100%);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+    transition: transform 0.3s ease, box-shadow 0.2s ease-in;
+}
+.container .front-card:hover {
+    cursor: pointer;
+    transform: scale(1.015);
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.45);
+}
+.container .front-card #globe {
+    float: right;
+    margin-top: -1.7em;
+    margin-right: 0.2em;
+    font-size: 1.6em;
+}
+.container .front-card span {
+    font-weight: normal;
+    color: #F8F8F8;
+}
+.container .front-card #chip {
+
+    margin-top: 2.3em;
+    margin-left: 0.4em;
+    background: url(https://www.thebeneficial.com/portals/beneficialbankwebsite/images/chip.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container .front-card .card-info #no {
+    font-size: 1em;
+    font-family: "Cutive Mono";
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: darkmagenta;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3);
+}
+.container .front-card .card-info #name {
+    font-family: "Cutive Mono";
+    font-weight: bold;
+    font-size: 1em;
+    margin-top: -0.5em;
+}
+.container .front-card .card-info #exp-date {
+    position: relative;
+    left: 11.5em;
+    bottom: 3em;
+    font-size: 0.5em;
+    opacity: 0.9;
+}
+.container .front-card #mastercard {
+    float: right;
+    margin-top: -9.3em;
+    background: url("http://www.pngall.com/wp-content/uploads/2016/07/Mastercard-PNG-Clipart.png");
+    width: 80px;
+    height: 65px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.cartinfo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.block{
+
+    border: 1px solid;
+}
+.d-none{
+    display: none;
+}
