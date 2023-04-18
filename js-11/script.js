@@ -138,20 +138,3 @@
 
 
 
-let games=['apple','android',
-    'chrome','firefox','firefox','opera','chatgpt','letter']
-
-let random=Math.floor(Math.random()*games.length)
-let info=games[random]
-
-
-let arrinfo=info.split('')
-// arrinfo=arrinfo.sort()
-let res=''
-for (let i=0; i<arrinfo.length; i++){
-    let my=Math.floor(Math.random()*arrinfo.length)
-    res+=arrinfo[my]
-    arrinfo.splice(my,1)
-    i--
-}
-console.log(res)

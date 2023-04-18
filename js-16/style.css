@@ -1,0 +1,217 @@
+/** {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    box-sizing: border-box;*/
+/*}*/
+/*:root {*/
+/*    --beg-color: #007af5;*/
+/*    --box-color:#cfe5f8;*/
+/*    --border-color:  2px solid black;*/
+/*   */
+
+
+/*  }*/
+/*  */
+
+
+/*.container {*/
+/*    width: 100%;*/
+/*}*/
+
+/*.quiz_box {*/
+/*    width: 100%;*/
+/*    height: 753px;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    background-color: var(--beg-color);*/
+/*}*/
+
+/*.game_box {*/
+/*    width: 69%;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    border: var(--border-color);*/
+/*    background-color: White;*/
+/*    border-radius: 22px;*/
+/*    justify-content: center;*/
+/*}*/
+
+/*.title {*/
+/*    width: 100%;*/
+/*    height: 74px;*/
+/*    display: flex;*/
+/*    justify-content: space-around;*/
+/*    align-items: center;*/
+/*  */
+
+/*}*/
+
+/*.title h2 {*/
+/*    font-size: 30px;*/
+/*}*/
+
+/*.time_box {*/
+/*    width: 24%;*/
+/*    height: 52px;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    background-color: var(--box-color);*/
+/*    border: 2px solid #101011;*/
+/*    box-shadow: 0 0 10px;*/
+/*    border-radius: 5px;*/
+/*    font-size: 26px;*/
+/*    padding: 0 3px;*/
+/*    gap: 4px;*/
+/*}*/
+
+/*.time_num {*/
+/*    width: 33%;*/
+/*    height: 39px;*/
+/*    background-color: #4C3A56;*/
+/*    color: white;*/
+/*    text-align: center;*/
+/*    border-radius: 5px;*/
+/*    padding: 9px 0px;*/
+/*}*/
+
+/*.question_box {*/
+/*    width: 100%;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}.pages:before{*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    bottom: 0;*/
+/*    background: red;*/
+/* }*/
+/*.boxing{*/
+/*    display: flex;*/
+/*}*/
+/*.questions {*/
+/*    width: 90%;*/
+/*    height: 103px;*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+/*    border: var(--border-color);*/
+/*    margin: 20px auto;*/
+/*}*/
+
+/*.que {*/
+/*    font-size: 28px;*/
+/*    margin: 0px 20px;*/
+/*}*/
+
+/*.score_box {*/
+/*    width: 20%;*/
+/*    height: 40px;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    background-color: var(--box-color);*/
+/*    border: var(--border-color);*/
+/*    box-shadow: 0 0 10px;*/
+/*    border-radius: 5px;*/
+/*    font-size: 18px;*/
+
+/*    margin-right: 15px;*/
+/*}*/
+/*.answers{*/
+
+/*    width: 83%;*/
+/*    font-size: 35px;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    margin: 10px auto;*/
+
+/*    */
+/*}*/
+
+/*.answer{*/
+/*    width: 80%;*/
+/*    height: 40px;*/
+/*    display: flex;*/
+/*    padding-left: 16px;*/
+/*    align-items: center;*/
+
+/*    margin: 10px auto;*/
+/*}*/
+
+/*.page_box {*/
+/*    width: 60%;*/
+/*    border: var(--border-color);*/
+/*    background-color: var(--box-color);*/
+/*    margin: 20px 0;*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*    justify-content: space-around;*/
+/*    gap: 10px 0;*/
+
+
+
+/*}*/
+/*#search{*/
+/*    width: 100%;*/
+/*    height: 40px;*/
+/*    font-size: 33px;*/
+/*}*/
+/*.pages {*/
+/*    width: 32%;*/
+/*border: 1px solid;*/
+/*    font-size: 21px;*/
+/*    gap: 8px;*/
+/*    position: relative;*/
+/*    border: 3px solid;*/
+/*}*/
+/*.current{*/
+/*    width: 32%;*/
+/*    border:1px solid;*/
+/*    border: var(--border-color);*/
+/*    background-color: var(--box-color);*/
+/*    margin: 20px 0;*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*    justify-content: space-around;*/
+/*    gap: 10px 0;*/
+/*}*/
+/*.next_que {*/
+/*    width: 19%;*/
+/*    height: 42px;*/
+/*    border: none;*/
+/*    background-color: #ffffffd6;*/
+/*    border-radius: 10px;*/
+/*    margin-right: 26px;*/
+/*    font-size: 18px;*/
+/*}*/
+
+/*.next_que:hover {*/
+/*    border: 3px solid #ffffffd6;*/
+/*    background: none;*/
+/*    color: white;*/
+/*}*/
+/*.setActive{*/
+/*    background: green;*/
+/*    color: wheat;*/
+/*}*/
+/*.setActive2{*/
+/*    background: red;*/
+/*    color: wheat;*/
+/*}*/
+
+.box{
+    position:relative;
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.images{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://via.placeholder.com/150/92c952);
+}

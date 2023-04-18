@@ -34,7 +34,36 @@ let question=[
         c: "Գ․ undefined",
         d: "Դ․ false",
         correct: '3'
-    },]
+    },
+    {
+    id: 4,
+    question: "Հարց 4-ինչ կտպի հետևյալ կոդը?- console.log(typeof NaN)",
+    a: "Ա․ number",
+    b: "Բ․ undefined",
+    c: "Գ․ object",
+    d: "Դ․ string",
+    correct: '1'
+},
+    {
+        id: 5,
+        question: "Հարց 5-ինչ կտպի հետևյալ կոդը?- const arr=[1,2,3,4,5] const otherArr=[1,2,3,4,5] console.log(arr == otherArr)",
+        a: "Ա․ true",
+        b: "Բ․ false",
+        c: "Գ․ Error",
+        d: "Դ․ arr == otherArr",
+        correct: '2'
+    },
+    {
+        id: 6,
+        question: "Հարց 6-ինչ կտպի հետևյալ կոդը?- let x=10    x==10 && console.log('hello world')",
+        a: "Ա․ hello world",
+        b: "Բ․ Error",
+        c: "Գ․ undefined",
+        d: "Դ․ false",
+        correct: '3'
+    },
+
+]
 
 let questionSet
 let myquestion=document.querySelector(".myquestion")
@@ -46,17 +75,16 @@ let answer= {
 }
 
 let firstload=false
-function showQuestion(arg){
+function showQuestion(arg=1){
     console.log(arg)
     clearTimeout(questionSet)
-    if(firstload){
+    if(firstload && arg){
         let x=checkAnswer(arg)
         if(x){
             answer["harc"+arg].classList.add('setActive')
         }else{
             answer["harc"+arg].classList.add('setActive2')
         }
-
     }
     firstload=true
    if(question.length===myId){
@@ -73,15 +101,21 @@ function showQuestion(arg){
 
 
    function writeQuestion(arg){
-       answer["harc"+arg].classList.remove('setActive')
-       answer["harc"+arg].classList.remove('setActive2')
+    if(arg){
+        answer["harc"+arg].classList.remove('setActive')
+        answer["harc"+arg].classList.remove('setActive2')
+
+    }
        myquestion.innerHTML=question[myId].question
        answer.harc1.innerHTML=question[myId].a
        answer.harc2.innerHTML=question[myId].b
        answer.harc3.innerHTML=question[myId].c
        answer.harc4.innerHTML=question[myId].d
+       setTimeout(()=>{
+           showQuestion(false)
+       },5000)
    }
-showQuestion(1)
+showQuestion()
 
 function checkAnswer(arg){
     console.log(question[myId-1])

@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="855c946f-a433-4ee4-83ca-c5a5dcf6d417" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../js-14/xax.js" beforeDir="false" afterPath="$PROJECT_DIR$/../js-14/xax.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../js-11/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../js-11/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +28,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Admin/Desktop/groupTwo/js-15",
+    "last_opened_file_path": "D:/groupTwo/js-16",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -44,6 +46,7 @@
       <option name="presentableId" value="Default" />
       <updated>1681539699053</updated>
       <workItem from="1681539700165" duration="3239000" />
+      <workItem from="1681802261793" duration="589000" />
     </task>
     <servers />
   </component>
