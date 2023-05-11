@@ -1,70 +1,45 @@
-function User(username,password){
-    this.username=username
-    this.password=password
+let divElements=document.querySelector('.one')
 
-}
+// let index=0
+//
+// let array=['Anna','Manya',"Melanya"]
+//
+// divElements.innerHTML=array[index]
+// divElements.addEventListener('click',function () {
+//     index++
+//     if(!array[index]){
+//         index=0
+//     }
+//     divElements.innerHTML=array[index]
+// })
 
-function Login(){
-    this.users=[]
-    
-}
+// let obj={
+//     innerHTML:......,
+//     innerText:....,
+// }
+// let taglist=document.querySelector('.list')
+// array.forEach(res=>{
+//     taglist.innerHTML+=`<li>${res}</li>`
+// })
+// let divElementstwo=document.querySelector('.two')
+//
+// divElementstwo.innerHTML=divElements.innerText
 
-Login.prototype.addUser=function (user){
-    if(user instanceof User){
-
-        this.users.push(user)
-        return true
-    }else{
-        console.log("Error. Invalid user object")
-        return false
-    }
-}
-
-
-Login.prototype.login=function (username,password){
-    if(!username || !password){
-        console.log('Error. Missing usernema and password ')
-        return false
-    }
-    let u=this.users.find(res=>res.username===username && res.password===password)
-    if(u){
-        return true
-    }
-    console.log('error: inalid username and password ')
-    return false
-}
-
-function Register(){
-    this.login=new Login()
-}
-Register.prototype.register=function (username,password){
-    if(!username || !password){
-        console.log('Error. Missing usernema and password ')
-        return false
-    }
+// divElementstwo.addEventListener('mouseover',function (){
+//     divElementstwo.style.background=randomColor()
+// })
 
 
+// function randomColor(){
+//     function randomTwoFourFour(){
+//         return Math.round(Math.random()*255)
+//     }
+//     return `rgb(${randomTwoFourFour()},${randomTwoFourFour()},${randomTwoFourFour()})`
+// }
 
-    let user=new User(username,password)
+let name="apple"
 
-    return this.login.addUser(user)
-
-}
-let register=new Register()
-
-
-register.register("Ando",'123')
-
-
-
-let loginForm=document.querySelector('#loginForm')
-loginForm.addEventListener('submit',function (e){
-    e.preventDefault()
-   let username=e.target.elements.username
-   let password=e.target.elements.password
-
-    console.log(register.login.login(username.value,password.value))
-    username.value=''
-    password.value=''
-})
-
+let arr=name.split('')
+arr=arr.sort(()=>0.3-Math.random())
+arr=arr.join('')
+console.log(arr)
